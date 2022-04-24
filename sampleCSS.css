@@ -1,0 +1,25 @@
+#displayData{
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 90%;
+  max-width: 1200px;
+  min-width: 1200px;
+}
+
+#displayData td, #displayData th {
+    border: 1px solid #ddd;
+    padding: 4px;
+  }
+
+  #displayData tr:nth-child(even){background-color: #faf4f4;}
+  #displayData tr:nth-child(odd){background-color: #ffffff;}
+
+  #displayData tr:hover {background-color: #ddd;}
+
+  #displayData th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #21264E;
+    color: white;
+  }
