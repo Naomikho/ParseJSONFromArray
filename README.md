@@ -1,4 +1,4 @@
-# ParseJSONFromJSArray
+# ParseJSONFromArray
 Dynamically parse JSON stored in a JavaScript array.
 
 In what case will I use this code?
