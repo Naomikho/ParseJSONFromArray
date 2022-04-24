@@ -51,3 +51,23 @@ async componentDidMount()
 
         this.setState({colHeaders: cols, rowData: rows});
 }
+
+//render
+ render() {
+        return (
+            <div className="run">
+                <div className="runData">
+                    <br></br><br></br>
+                    <table id = "displayData">
+                        <tr id = "colHeaders">
+                            {this.state.colHeaders}
+                        </tr>
+                        <tbody>
+                        {this.state.rowData}
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+        );
+    }
